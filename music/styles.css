@@ -1,0 +1,47 @@
+body{
+    background:rgb(254, 234, 237);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: antiquewhite;
+}
+.brand img{
+    width: 64px;
+    
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+}
+.container{
+    min-height: 75vh;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top:14px;
+}
+#myProgressBar{
+    width: 98vw;
+    text-align: center;
+}
